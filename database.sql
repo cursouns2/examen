@@ -1,3 +1,7 @@
+
+CREATE DATABASE IF NOT EXISTS fernandamontenegro;
+USE fernandamontenegro;
+
 CREATE TABLE Proveedores (
     id_proveedor INT AUTO_INCREMENT PRIMARY KEY,
     nombre_razon_social VARCHAR(255) NOT NULL,
